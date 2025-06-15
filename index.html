@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: rgb(223, 202, 202);
+    }
+    h1{
+        color: rgb(197, 20, 20);
+        text-align: center;
+    }
+
+
+    p{
+        font-size: 20px;
+        text-align: justify;
+    }
+    ul{
+        list-style-type: initial;
+        font-size: 20px;
+    }
+    li{
+        padding-bottom: 30px;
+    }
+    img{
+        border-radius:60%
+    }
+    table{
+        width: 40%; 
+        border-collapse: collapse;
+        border: 5px solid black;
+        font-size: 20px;
+        
+        
+    }
+    link{
+        background-color: blue;
+        color: white;
+        transition: background-color 0.3s ease;/* Efeito de transição suave */
+
+    }
+    link:hover{
+        background-color: black; /* Cor de fundo ao passar o mause */;
+        color: red;
+    }
+
+    
+    
+
+
+
+        
+    
+
+</style>
+
+<body>
+    <h1> Carlos Henrique Aguiar Neves</h1>
+    <p>    Olá, sou Carlos Henrique, sou um jovem de 23 anos natural de Presidente Vargas, no interior do Maranhão.
+        Atualmente, estou morando em São Luís, onde trabalho e estudo na Uninter. Saí da minha cidade natal em 2018 para 
+        poder estudar, desde então me dedico a aprender e crescer profissionalmente.
+        Tenho interesse em diversas áreas, mas minha paixão é por tecnologia, principalmente progamação. Busco sempre me atualizar e aprender coisas novas.
+        Vou  trabalhar duro pra alcançar meus objetivos e fazer a diferença pra minha família e comunidade.
+    </p>
+    <button id="botao">Clique aqui para ver uma mensagem</button>
+
+    <p> Tenho muitos hobbies que deixam o meu dia mais leve, entre eles posso citar:   </p>
+    
+    <ul>
+        <li> Estudar</li>
+        <li>Assistir futebol</li>
+        <li>Ouvir música</li>
+    </ul>
+    <img src="downloadfut.jpeg" alt="">
+    <br>
+    <br>
+    <p>Um dos meus maiores sonhos é viajar pelo mundo e conhecer diferentes nações, culturas e modos de viver.
+        Acredito que viajar é uma forma de enriquecer a mente, além é claro, de ser uma experiência incrível.
+        Dentre os países que eu gostaria de conhecer, posso citar três que chamam muito minha atenção.
+    </p>
+
+    <table border="1">
+        <caption> Países que eu gostaria de conhecer</caption>
+        <tr>
+            <th>País</th>
+            <th>Imagem</th>
+        </tr>
+        <tr>
+            <td>Japão</td>
+            <td><img src="japao.jpg" width="100px"></td>
+        </tr>
+        <tr>
+            <td>França</td>
+            <td>
+                <img src="frança.jpg" width="100px"></td>
+        </tr>
+        <tr>
+            <td>Emirados Árabes</td>
+            <td>
+                <img src="Emirados.jpg" width="100px"></td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <p>
+        Além de viajar, gosto muito de me manter informado sobre o que acontece no mundo. Sempre busco fontes confiáveis e atualizadas
+        para me manter por dentro das no tícias. Uma das minhas fontes favoritas é a CNN Brasil, pois eles oferecem sempre uma cobertura completa sobre qualquer assunto.
+        Já que voçê está aqui, aproveita e dá uma olhada no site deles, sei que vai gostar também!
+    </p>
+    <p>Neste link você fica por dentro de todas as notícias do Brasil e do mundo.<p></p>
+    <a href="https://www.cnnbrasil.com.br/" target="_blank">https://www.cnnbrasil.com.br </a>
+
+    <script>
+        let botao = document.querySelector("#botao")
+        botao.style.background = "white"
+
+      
+        botao.addEventListener ("click", e=>{
+            alert("Olá, seja bem-vindo(a) ao meu primeiro site. Estou iniciando minha jornada no mundo da programação, desde já agradeço a compreensão de todos. Espero que gostem do meu trabalho. Com carinho, Carlos Henrique!");
+        });
+    
+        
+        
+    </script>
+<
